@@ -1,0 +1,11 @@
+:root:is(:root),
+::backdrop:is(::backdrop) {
+  /* --sl-color-accent-low: red;
+  --sl-color-accent: red;
+  --sl-color-accent-high: red; */
+  --sl-color-white: #b99c74;
+  /* --sl-color-text-accent: #b99c74; */
+  --sl-color-gray-2: #b99c74;
+  --sl-color-accent: #b99c74;
+  --sl-color-accent-high:blue
+}

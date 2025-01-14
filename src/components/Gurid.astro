@@ -1,0 +1,24 @@
+---
+const { type, name } = Astro.props;
+---
+
+<span class={`${type}`}>{name}</span>
+
+<style>
+  .boss {
+    color: #af6025;
+  }
+  .quests {
+    color: #4ae63a;
+  }
+  .gems {
+    color: #1ba29b;
+  }
+  .npc {
+    color: #b44bff;
+  }
+  /* 可选boss用的颜色 */
+  .options {
+    color: #ff7;
+  }
+</style>
