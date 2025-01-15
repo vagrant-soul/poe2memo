@@ -7,6 +7,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'POE2备忘录',
+			locales: {				
+				root: {
+					label: '简体中文',
+					lang: 'zh-CN',
+				  },
+			  },
 			logo: {
 				src: './src/assets/logo.webp'
 			  },
@@ -20,15 +26,15 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: '[home] Home',
+					label: '[home] 首页',
     				link: '/'
 				},
 				{
-					label: '[home] 测试测试测试',
+					label: '[home] 站点介绍',
     				link: '/getting-started/'
 				},
 				{
-					label: '[home] 另外一个测试',
+					label: '[home] 版本变更',
     				link: '/changelog/',
 					badge: {
 						variant: 'tip',
