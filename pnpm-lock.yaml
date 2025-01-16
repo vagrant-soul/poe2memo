@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.32.5
     version: 0.32.6
   starlight-ion-theme:
-    specifier: ^2.1.0
-    version: 2.1.0(@astrojs/starlight@0.30.6)(astro@5.1.5)
+    specifier: ^2.1.1
+    version: 2.1.1(@astrojs/starlight@0.30.6)(astro@5.1.5)
 
 packages:
 
@@ -4195,8 +4195,8 @@ packages:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: false
 
-  /starlight-ion-theme@2.1.0(@astrojs/starlight@0.30.6)(astro@5.1.5):
-    resolution: {integrity: sha512-2C/OrRYRF8nPeCDJ+nB0x1FKtNKVoEbB5J08dRx35e+W0C7lUBduOk6HFVMSaTQXw/sIiup+/tiWxS8qO+sMpw==}
+  /starlight-ion-theme@2.1.1(@astrojs/starlight@0.30.6)(astro@5.1.5):
+    resolution: {integrity: sha512-bUxLCyI1Y1IPtfpa/qnqavoSeWvUe31WQwWf/5cgs2rgVckOlytKGD1ygmQCcmtJ9BQYtawEgirv9GlGQmDyZg==}
     peerDependencies:
       '@astrojs/starlight': ^0.30.6
       astro: ^5.1.5

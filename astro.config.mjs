@@ -49,7 +49,7 @@ export default defineConfig({
 			plugins: [
 				ion({
 					icons: {
-						iconPath: resolve("./src/icons", import.meta.url)
+						iconPath: "./src/icons",
 					  },
 					footer: {
 					text: '©️ 2025 Vagrant Soul',
