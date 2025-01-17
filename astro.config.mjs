@@ -30,11 +30,11 @@ export default defineConfig({
     				link: '/'
 				},
 				{
-					label: '[home] 站点介绍',
+					label: '[list] 站点介绍',
     				link: '/getting-started/'
 				},
 				{
-					label: '[home] 版本变更',
+					label: '[changelog] 版本变更',
     				link: '/changelog/',
 					badge: {
 						variant: 'tip',
@@ -42,7 +42,7 @@ export default defineConfig({
 					  }
 				},
 				{
-					label: '内容集合',
+					label: '[book] 内容集合',
 					autogenerate: { directory: 'reference' },
 				},
 			],
@@ -55,7 +55,7 @@ export default defineConfig({
 					text: '©️ 2025 Vagrant Soul',
 					links: [{
 						text: '流放备忘录',
-						href: 'https://louisescher.dev',
+						href: 'https://wqonline.com',
 					}],
 					icons: [{
 						name: 'github',
